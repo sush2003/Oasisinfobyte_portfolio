@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, intial-scale-1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Charm&family=Pacifico&family=Prompt:wght@100&family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Faustina&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+</head>
+    <style>
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            }
+
+          body {
+          font-family: sans-serif;
+          width:100%;
+	      height:100vh;
+        background-image:linear-gradient(rgba(0,0,0.2,0.3),rgba(0,0,0.3,0.1)),url(../internships/images/pic2.jpg);
+        background-size:cover;
+         }
+         .logo {
+  color:white;
+  font-size: 40px;
+  text-transform:uppercase;
+  margin-right:30px;
+   font-family: 'Faustina', serif;
+   color:white;
+}
+
+.logo span {
+  color: white;
+}
+
+.menu {
+  background-color: #f67280;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  
+  
+  position: relative;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li {
+  /* width: 120px; */
+  padding: 5px 45px;
+  /* text-align: center; */
+
+  position: relative;
+}
+
+.menu ul li a {
+  font-size: 15px;
+  color: white;
+  font-weight:bold;
+  text-decoration:none;
+
+  text-transform:uppercase;
+
+  transition: all 0.3s;
+}
+
+.menu ul li a:hover {
+  color:  #e89153;
+}
+          .details
+          {
+            width:50%;
+            height:54vh;
+            top:50%;
+            left:50%;
+           float:right;
+           margin-right:100px;
+            margin-top: 60px;
+            border: 3px black solid;
+            color:darkcyan;
+            background-color: cornsilk;
+            font-family: 'Pacifico', cursive;
+            text-align: justify;
+            border-radius: 30px;
+           }
+           .details p{
+            margin-left:20px;
+            margin-right:10px;
+            margin-top:20px;
+            font-style:cursive;
+            font-weight:5px;
+
+           }
+           .details h3{
+            margin-left:30px;
+            margin-top:5px;
+           }
+           
+    </style>
+    <body>
+        <nav>
+            <div class="menu">
+                <h1 class="logo">TO KNOW ME</h1>
+            
+            <ul>
+                <li>
+                    <a href="portfolio.html">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="skills.html">SKILLS</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT</a>
+                </li>
+                
+            </ul>
+        <br>
+        <br>
+         </nav>
+        </div>
+        <br>
+        <br>
+        
+            
+        
+        
+          <div class="details">
+            <h3>Hello everyone!!</h3>
+            <p>
+                Iam panuganti Sushma sai from hanamkonda, currently pursuing my btech in 
+                Computer Science from Kakatiya institute of technology and science warangal(KITSW) 
+                with a CGPA of 8.4.
+                <br>
+                I did my schooling at spectra global concept concept school with 9.7 CGPA and completed
+                my intermediate with an aggreate of 95%.
+                 <br>            
+                Iam currently doing my certifications on web development in oasis and bharat 
+                internship as well as DBMS in NPTEL.
+                <br>
+                My short term goal is to get a job in a best company and explore my skills and 
+                Iam planning to continue my further studies in abroad in future.
+            </p>
+          </div>
+    </body>
+    </html>
