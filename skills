@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title>my portfolio</title>
+    </head>
+     <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    width:100%;
+	height:100vh;
+	background:white;
+	background-size:cover;
+
+}
+
+.logo {
+  color:white;
+  font-size: 40px;
+  text-transform:uppercase;
+  margin-right:30px;
+   font-family: 'Faustina', serif;
+   color:white;
+}
+
+.logo span {
+  color: white;
+}
+
+.menu {
+  background-color: #f67280;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  
+  
+  position: relative;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li {
+  /* width: 120px; */
+  padding: 5px 45px;
+  /* text-align: center; */
+
+  position: relative;
+}
+
+.menu ul li a {
+  font-size: 15px;
+  color: white;
+  font-weight:bold;
+  text-decoration:none;
+
+  text-transform:uppercase;
+
+  transition: all 0.3s;
+}
+
+.menu ul li a:hover {
+  color:  #e89153;
+}
+.contet .image-section1 img{
+	width:25%;
+	height:30vh;
+	margin-left:70px;
+	margin-top:60px;
+	border:2px solid #f67280;
+}
+.contet .image-section1 img:hover{
+ 
+  transition: 0.5s;
+  transform:scale(1.04);
+  
+}
+.heading button
+{
+    height:5vh;
+    width:5%;
+    color:#f67280;
+    float:right;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: #f67280;
+    border:2px solid #f67280;
+    color: white;
+}
+.contet .image-section2 img{
+	width:25%;
+	height:30vh;
+	margin-left:70px;
+	margin-top:60px;
+	border:2px solid #f67280;
+}
+.contet .image-section2 img:hover{
+ 
+  transition: 0.5s;
+  transform:scale(1.04);
+}
+.contet .image-section2 button{
+    width:25%;
+	height:30vh;
+	margin-left:70px;
+	
+	border:2px solid #f67280;
+
+}
+          
+     </style>
+     <body>
+            <nav>
+                <div class="menu">
+                    <h1 class="logo">TO KNOW ME</h1>
+                
+                <ul>
+                    <li>
+                        <a href="portfolio.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="skills.html">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                    
+                </ul>
+            
+             </nav>
+            </div>
+            <div class="heading">
+                <button>Add file</button>
+            </div>
+            <div class="contet">
+             <div class="image-section1">
+              <img src="images/c.jpg">
+              <img src="images/ds2.jpg">
+              <img src="images/java.jpg">
+
+             </div>
+             <div class="image-section2">
+                <img src="images/python.jpg">
+                <img src="images/front2.jpg">
+                <img src="images/dbms.jpg">
+                
+                </div>
+                
+            </div>
+        
+     </body>
+</html>
